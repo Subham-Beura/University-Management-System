@@ -15,7 +15,7 @@ const userSchema: Schema=new Schema(
       required:true,
     },
     branch:{
-      type:"CSE"||"CE"||"IT",
+      type:String,
       required:true,
     },
     isAdmin:{

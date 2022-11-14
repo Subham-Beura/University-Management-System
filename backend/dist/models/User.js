@@ -15,7 +15,7 @@ const userSchema = new mongoose_1.Schema({
         required: true,
     },
     branch: {
-        type: "CSE" || "CE" || "IT",
+        type: String,
         required: true,
     },
     isAdmin: {
